@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .conteiner {
+            display: flex;
+            height: 100vh;
+        }
+        .aside {
+            flex-basis: 20%;
+            background-color: darkcyan;
+        }
+        .header {
+            flex-basis: 20%;
+            background-color: darkred;
+        }
+        .section {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .column-left {
+            background-color: blue;
+        }
+        .column-right {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <div class="conteiner">
+            <div class="aside">
+                <h1>Меню</h1>
+            </div>
+            <div class="section">
+                <div class="header">
+                    <h1>Заголовок</h1>
+                </div>
+                <div class="content">
+                    <div class="column-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quisquam eum doloribus ad beatae qui impedit enim praesentium totam harum deserunt numquam culpa facere magni, soluta earum fugiat, labore ut!</div>
+                    <div class="column-right">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, in. Animi, doloremque veniam molestias quos quis obcaecati ipsam quaerat. Optio, quis! Voluptatum in vel, possimus aperiam sint vitae facilis officia?</div>
+                </div>
+            </div>
+        </div>
+    </p>
+    
+</body>
+</html>
