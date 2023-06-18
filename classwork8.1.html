@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classwork8</title>
+    <style>
+
+        .container {
+            display: flex;
+            border: 5px solid rgb(243, 45, 45);
+            gap: 2rem;
+            /* width: 600px;*/
+            /*flex-wrap: wrap;*/
+            align-items: flex-start;
+        }
+        h1 {
+            color: orange;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p {
+            font-weight: bold;
+        }
+        .item {
+            background-color: aqua;
+        }
+        .container > * {
+            flex-basis: 100%;
+            padding: 1rem;
+        }
+        .item.first {
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item first">
+            <h1>Title</h1>
+            <p>lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="item second">
+            <h1>Title</h1>
+            <p>lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="item third">
+            <h1>Bigger Title</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas rerum quasi accusamus maxime qui, commodi nihil rem sapiente officiis dolore mollitia, itaque blanditiis veritatis vero vel et iusto fuga error.</p>
+        </div>
+    </div>
+</body>
+</html>
